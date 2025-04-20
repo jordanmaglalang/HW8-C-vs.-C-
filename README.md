@@ -70,7 +70,12 @@ A terminal or command line:
   ./main
   ```
 
-##TESTING
+##TESTING METHODOLOGY
+-Created the sane test matrices for both with same values in each to check consistency in output
+-Applied the operations of addition, multiplication, scalar multiplication, and use of transpose 
+-Prints out the expected value in main by displaying the sum of values in both files for visual correctdness
+
+
 
 
 
