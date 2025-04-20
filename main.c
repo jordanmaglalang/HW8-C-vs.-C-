@@ -130,7 +130,7 @@ int main(){
    int** transpose_c = makeMatrix(3,2);
    transpose(c, transpose_c, 3,2);
    printf("Matrix C after transpose:\n");
-   displayGrid(3,2,b);
+   displayGrid(3,2,transpose_c);
    printf("\n");
     
    int ** product = makeMatrix(2,2);
@@ -146,6 +146,14 @@ int main(){
    addMatrices(a, product,sum, 2,2,2,2);
    printf("D is equal to:\n");
    displayGrid(2,2,sum);
+
+
+   clearMatrix(a,2);
+   clearMatrix(b,2);
+   clearMatrix(c,2);
+   clearMatrix(transpose_c,3);
+   clearMatrix(product,2);
+   clearMatrix(sum,2);
     
     return 0;
 }
