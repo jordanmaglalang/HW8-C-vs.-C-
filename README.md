@@ -1,7 +1,9 @@
 
 ##AUTHORING:
 Authors: Jordan Maglalang
+
 Affiliation: UMBC Class of 2027 CMSC 313
+
 Date: 4/19/25
 
 ## PURPOSE OF SOFTWARE:
