@@ -101,15 +101,23 @@ int main(){
     a[1][0]=8;
     a[1][1]=3;
    
-   
+   printf("Matrix A:\n");
+   displayGrid(2,2,a);
+   printf("\n");
+    
    int** b= makeMatrix(2,3);
+   printf("\n");
    b[0][0] = 1;
    b[0][1] = 2;
    b[0][2] = 3;
    b[1][0]= 4;
    b[1][1] = 5;
    b[1][2] = 6;
-  
+   
+   scalar(b,2,3,3);
+   printf("Matrix B after scalar multiplication:\n");
+   displayGrid(2,3,b);
+   printf("\n");
 
    int** c= makeMatrix(2,3);
    c[0][0] = 2;
@@ -118,19 +126,21 @@ int main(){
    c[1][0] = 1;
    c[1][1]= 3;
    c[1][2]=5;
-   
-
-
-   scalar(b,2,3,3);
-   
-
+    
    int** transpose_c = makeMatrix(3,2);
    transpose(c, transpose_c, 3,2);
-  
-
+   printf("Matrix C after transpose:\n");
+   displayGrid(3,2,b);
+   printf("\n");
+    
    int ** product = makeMatrix(2,2);
    multiplyMatrices(b,transpose_c,product, 2,3,3,2);
-   
+
+   printf("Matrix product after multiplication:\n");
+   displayGrid(2,2,product);
+   printf("\n");
+    
+    
 
    int ** sum = makeMatrix(2,2);
    addMatrices(a, product,sum, 2,2,2,2);
