@@ -129,6 +129,9 @@ int main(){
     a.setValue(1,2,4);
     a.setValue(2,1,8);
     a.setValue(2,2,3);
+    cout << "Matrix A:" << endl;
+    a.displayGrid();
+    cout endl;
     
 
     
@@ -140,6 +143,9 @@ int main(){
     b.setValue(2,2,5);
     b.setValue(2,3,6);
     b.scalar(3);
+    cout << "Matrix B after scalar multiplication:" << endl;
+    b.displayGrid();
+    cout << endl;
   
 
     Matrix c(2,3);
@@ -150,6 +156,8 @@ int main(){
     c.setValue(2,2,3);
     c.setValue(2,3,5);
     c.transpose();
+    cout << "Matrix C after transpose:" << endl;
+    c.displayGrid();
    
 
     Matrix d = b.multiplyMatrices(c);
