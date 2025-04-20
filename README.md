@@ -35,7 +35,7 @@ A terminal or command line:
   ```powershell
   gcc -std=c99 main.c -o main
   ```
--Git Bash (Windows) / macOS/Linux:
+-**Git Bash (Windows) / macOS/Linux:**
  ```bash
   gcc -std=c99 main.c -o main
   ```
@@ -44,11 +44,11 @@ A terminal or command line:
   ```cmd
   g++ main.cpp -o main 
   ```
--**Windows PowetShell:**
+-**Windows PowerShell:**
    ```powershell
   g++ main.cpp -o main 
   ```
--Git Bash (Windows) / macOS/Linux:
+-**Git Bash (Windows) / macOS/Linux:**
  ```bash
   g++ main.cpp -o main
   ```
@@ -65,7 +65,7 @@ A terminal or command line:
   ```powershell
   .\main.exe
   ```
--Git Bash (Windows) / macOS/Linux:
+-**Git Bash (Windows) / macOS/Linux:**
  ```bash
   ./main
   ```
