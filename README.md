@@ -70,7 +70,7 @@ A terminal or command line:
   ./main
   ```
 
-##TESTI
+##TESTING
 
 
 
