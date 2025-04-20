@@ -161,6 +161,9 @@ int main(){
    
 
     Matrix d = b.multiplyMatrices(c);
+    cout<< "Matrix product after multiplication:" << endl;
+    d.displayGrid();
+    
     cout << "D is equal to:" << endl;
     a.addMatrices(d).displayGrid();
 
