@@ -131,7 +131,7 @@ int main(){
     a.setValue(2,2,3);
     cout << "Matrix A:" << endl;
     a.displayGrid();
-    cout endl;
+    cout << endl;
     
 
     
